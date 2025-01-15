@@ -1,0 +1,1 @@
+In the provided solution, we use a loading state to manage the data fetching process.  The parent component passes down the fetched data and a loading flag to the child component. This makes sure that the child component only renders once the data is available, preventing rendering issues caused by asynchronous operations.
